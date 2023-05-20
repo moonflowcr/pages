@@ -22,7 +22,7 @@
 <html>
 <head> 
 
-	<title> ana's characters </title>
+	<title> page 001 </title>
 	<link rel="shortcut icon" href="{Favicon}">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,9 +56,9 @@ TO GET API KEY:
     4. Restrict application access to HTTP referrer and add the wildcard yoururl.tumblr.com/* (or for multipe sites if needed)
     5. Libraries > search for Google Sheets > Enable*/
     
-const sheetID = '1GR7VcdTTYsAFbgH7yBFzy9HP2AZdEY9XV_OExuzjTuQ';
+const sheetID = '1roKSwJHc2da2MFHIBexhk3vFjKopImK2yEad144INV0';
 const sheetTab = 'DATA';
-const APIkey = 'AIzaSyCc-qJLIWuFi5urVqJqet0UwOJA54EWRCQ';
+const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
 
 </script> 
 
@@ -593,15 +593,22 @@ header {
     
     <div class="top-bar">
 	
-	<div class="title"> <i class="ph ph-shooting-star"></i></i> ana's characters </div>
+	<div class="title"> <i class="ph ph-shooting-star"></i></i> characters page </div>
 
-<!-- // NAVIGATION -->
+<!-- NAVIGATION -->
 
 <div id="nav">
   	<div class="nav-link"><a href="/" title="home"><i class="ph ph-house"></i></a></div>
 	<div class="nav-link"><a href="/ask" title="message"><i class="ph ph-chat-circle"></i></a></div>
-	<div class="nav-link"><a href="/nav" title="navigation"><i class="ph ph-map-trifold"></i></a></div>
-	<div class="nav-link"><a href="https://www.pinterest.es/moonflowcr/_saved/" title="pinterest"><i class="ph ph-pinterest-logo"></i></a></div>
+	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
+	
+	<!-- 
+	
+	copy and paste if you need more links: 
+	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
+	
+	-->
+	
 	<div class="nav-link" id="menubutton" onclick="openNav()" title="filters"><i class="ph ph-faders"></i></div>
 	<div class="nav-link"><a id="controlsbutton" title="tumblr controls"><i class="ph ph-gear"></i></a></div>
 	
@@ -623,16 +630,17 @@ header {
 	
 	<ul class="filter option-set exclusive" data-filter-group="group one">
      	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".open">open</a></li>
-     	<li><a href="#" data-filter-value=".exclusive">exclusive</a></li>
+     	<li><a href="#" data-filter-value=".a">filter one</a></li>
+     	<li><a href="#" data-filter-value=".b">filter two</a></li>
    	</ul>
 
    	
 	<ul class="filter option-set exclusive" data-filter-group="group two">
-	<b>verse</b>
+	<b>group</b>
      	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".coa">city of angels</a></li>
-     	<li><a href="#" data-filter-value=".devils">devil's paradise</a></li>
+     	<li><a href="#" data-filter-value=".1">filter one</a></li>
+     	<li><a href="#" data-filter-value=".2">filter two</a></li>
+     	<li><a href="#" data-filter-value=".3">filter three</a></li>
    	</ul>
 
 </div>
@@ -728,7 +736,7 @@ header {
 
 <a id="cred" href="https://moonflowcr.tumblr.com/" title="by moonflowcr"><i class="ph ph-moon-stars"></i></a>
 
-<!-- JAVASCRIPT -->
+<!-- JAVASCRIPT. DO NOT EDIT UNLESS YOU KNOW WHAT YOU'RE DOING -->
 
 <!-- scroll to top -->
 
