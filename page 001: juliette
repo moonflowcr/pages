@@ -12,7 +12,7 @@
 <html>
 <head> 
 
-	<title> page 001 </title>
+	<title> page 001: juliette </title>
 	<link rel="shortcut icon" href="{Favicon}">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -583,7 +583,7 @@ header {
     
     <div class="top-bar">
 	
-	<div class="title"> <i class="ph ph-shooting-star"></i></i> characters page </div>
+	<div class="title"> <i class="ph ph-shooting-star"></i></i> juliette </div>
 
 <!-- NAVIGATION -->
 
