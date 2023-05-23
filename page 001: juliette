@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- PAGE 001: JULIETTE, BY MOONFLOWCR / CODESBYANA
+<!-- PAGE 001: JULIETTE, BY CODESBYANA
 	
 	- CREDITS: codesbyana.tumblr.com/credits
 	- TERMS OF USE: codesbyana.tumblr.com/terms
@@ -98,13 +98,13 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     --ColorBackground2: #202020; /* header + muse boxes bg */
     --ColorBorder: #505050;
     --ColorLinks: #fff; /*top bar + scroll to top + credit links*/
-    --ColorLinksHover: #c5a364;
-    --ColorMuseLinks: #e2d1b2; /* muses boxes links */
-    --ColorMuseLinksHover: #c5a364;
-    --ColorAccent1: #c5a364;
+    --ColorLinksHover: #f0a6e3;
+    --ColorMuseLinks: #f2de55; /* muses boxes links */
+    --ColorMuseLinksHover: #f0a6e3;
+    --ColorAccent1: #f2de55;
     
-    --ColorGradient1: #c5a364;
-    --ColorGradient2: #e2d1b2; /* if you want a solid color instead of a gradient, use same colors in both variables */
+    --ColorGradient1: #f0a6e3;
+    --ColorGradient2: #f2de55; /* if you want a solid color instead of a gradient, use same colors in both variables */
     --Glow: 0 0 10px; /* change last value to 0 if you don't want the glow effect */
     
     /* SIZES */
@@ -399,7 +399,7 @@ header {
 .muse-desc {
 	padding: 15px;
 	text-transform:lowercase;
-	max-height:107.33px;
+	max-height:115px;
 	overflow-x:hidden!important;
 }
 
@@ -583,14 +583,15 @@ header {
     
     <div class="top-bar">
 	
-	<div class="title"> <i class="ph ph-shooting-star"></i></i> juliette </div>
+	<div class="title"> <i class="ph ph-sketch-logo"></i></i> juliette </div>
 
 <!-- NAVIGATION -->
 
 <div id="nav">
   	<div class="nav-link"><a href="/" title="home"><i class="ph ph-house"></i></a></div>
 	<div class="nav-link"><a href="/ask" title="message"><i class="ph ph-chat-circle"></i></a></div>
-	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
+	<div class="nav-link"><a href="/" title="get the code"><i class="ph ph-code-block"></i></a></div>
+	<div class="nav-link"><a href="/" title="get the spreadsheet"><i class="ph ph-table"></i></a></div>
 	
 	<!-- 
 	
@@ -724,7 +725,7 @@ header {
 
 <!-- CREDIT. DO NOT EDIT -->
 
-<a id="cred" href="https://moonflowcr.tumblr.com/" title="by moonflowcr"><i class="ph ph-moon-stars"></i></a>
+<a id="cred" href="https://codesbyana.tumblr.com/" title="codesbyana"><i class="ph ph-moon-stars"></i></a>
 
 <!-- JAVASCRIPT. DO NOT EDIT UNLESS YOU KNOW WHAT YOU'RE DOING -->
 
