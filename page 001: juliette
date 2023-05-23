@@ -101,7 +101,7 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     --ColorLinksHover: #f0a6e3;
     --ColorMuseLinks: #f2de55; /* muses boxes links */
     --ColorMuseLinksHover: #f0a6e3;
-    --ColorAccent1: #f2de55;
+    --ColorAccent1: #f0a6e3;
     
     --ColorGradient1: #f0a6e3;
     --ColorGradient2: #f2de55; /* if you want a solid color instead of a gradient, use same colors in both variables */
@@ -401,6 +401,14 @@ header {
 	text-transform:lowercase;
 	max-height:115px;
 	overflow-x:hidden!important;
+}
+
+.muse-desc a {
+    color: var(--ColorGradient1);
+}
+
+.muse-desc a:hover {
+    color: var(--ColorGradient2);
 }
 
 .muse-desc {
