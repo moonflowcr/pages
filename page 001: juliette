@@ -95,7 +95,7 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     /* COLORS */
     --ColorText: #eeeeee;
     --ColorBackground: #111111; /* main bg */
-    --ColorBackground2: #202020; /* header + muse boxes + credit and scroll to top bg */
+    --ColorBackground2: #202020; /* header + muse boxes bg */
     --ColorBorder: #505050;
     --ColorLinks: #fff; /*top bar + scroll to top + credit links*/
     --ColorLinksHover: #f0a6e3;
@@ -108,7 +108,7 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     --Glow: 0 0 10px; /* change last value to 0 if you don't want the glow effect */
     
     /* SIZES */
- 	--MuseImgWidth: 300px; /* the width of each box */
+ 	--MuseImgWidth: 300px; 
     
     /* OTHERS */
  	--BorderRadius: 5px;   
@@ -411,6 +411,12 @@ header {
     color: var(--ColorGradient2);
 }
 
+.muse-desc .extra {
+    font-size:0.9em;
+    font-style:italic;
+    margin:5px 0px;
+}
+
 .muse-desc {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
@@ -598,8 +604,8 @@ header {
 <div id="nav">
   	<div class="nav-link"><a href="/" title="home"><i class="ph ph-house"></i></a></div>
 	<div class="nav-link"><a href="/ask" title="message"><i class="ph ph-chat-circle"></i></a></div>
-	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
-	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
+	<div class="nav-link"><a href="https://github.com/moonflowcr/pages/blob/main/page%20001:%20juliette" title="get the code"><i class="ph ph-code-simple"></i></a></div>
+	<div class="nav-link"><a href="https://docs.google.com/spreadsheets/d/1roKSwJHc2da2MFHIBexhk3vFjKopImK2yEad144INV0/edit?usp=sharing" title="get the spreadsheet"><i class="ph ph-table"></i></a></div>
 	
 	<!-- 
 	
@@ -700,7 +706,7 @@ header {
 	
 </script>	
 
-    <!-- to use the non-spreadsheets version, use this template. it goes from here... 
+    <!-- to use the non-spreadsheets version, use this template from here 
 
 	<div class="grid-item 1a 2a">
 	
@@ -711,11 +717,7 @@ header {
 	</div>
 	
 	<div class="muse-desc"> 
-		    gender. pronouns. sexuality. occupation. any extra important info. just keep it short so it looks right.
-		    
-		    <div class="extra">some extra information. keep it short.</div>
-		   
-		   <div class="muse-li"><i class="ph ph-heart"></i>love interest</div>
+		    gender. pronouns. sexuality. occupation. any extra important info. just keep it short so it looks right, four lines tops. like this one. looks nice and neat, huh?
 		</div>
 		
 		<div class="muse-links">
@@ -726,7 +728,7 @@ header {
 
 	</div>
 	
-	... to here -->
+	<!-- / to here -->
 	
 <!-- END OF MUSES. DO NOT EDIT BELOW THIS LINE -->
 
