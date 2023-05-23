@@ -598,8 +598,8 @@ header {
 <div id="nav">
   	<div class="nav-link"><a href="/" title="home"><i class="ph ph-house"></i></a></div>
 	<div class="nav-link"><a href="/ask" title="message"><i class="ph ph-chat-circle"></i></a></div>
-	<div class="nav-link"><a href="/" title="get the code"><i class="ph ph-code-block"></i></a></div>
-	<div class="nav-link"><a href="/" title="get the spreadsheet"><i class="ph ph-table"></i></a></div>
+	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
+	<div class="nav-link"><a href="/" title="link"><i class="ph ph-link"></i></a></div>
 	
 	<!-- 
 	
