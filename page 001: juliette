@@ -95,7 +95,7 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     /* COLORS */
     --ColorText: #eeeeee;
     --ColorBackground: #111111; /* main bg */
-    --ColorBackground2: #202020; /* header + muse boxes bg */
+    --ColorBackground2: #202020; /* header + muse boxes + credit and scroll to top bg */
     --ColorBorder: #505050;
     --ColorLinks: #fff; /*top bar + scroll to top + credit links*/
     --ColorLinksHover: #f0a6e3;
@@ -108,7 +108,7 @@ const APIkey = 'AIzaSyCe4wOvSF3OBJvEGn0ofA8RfhiDPQB0lsY';
     --Glow: 0 0 10px; /* change last value to 0 if you don't want the glow effect */
     
     /* SIZES */
- 	--MuseImgWidth: 300px; 
+ 	--MuseImgWidth: 300px; /* the width of each box */
     
     /* OTHERS */
  	--BorderRadius: 5px;   
@@ -700,7 +700,7 @@ header {
 	
 </script>	
 
-    <!-- to use the non-spreadsheets version, use this template from here 
+    <!-- to use the non-spreadsheets version, use this template. it goes from here... 
 
 	<div class="grid-item 1a 2a">
 	
@@ -711,7 +711,11 @@ header {
 	</div>
 	
 	<div class="muse-desc"> 
-		    gender. pronouns. sexuality. occupation. any extra important info. just keep it short so it looks right, four lines tops. like this one. looks nice and neat, huh?
+		    gender. pronouns. sexuality. occupation. any extra important info. just keep it short so it looks right.
+		    
+		    <div class="extra">some extra information. keep it short.</div>
+		   
+		   <div class="muse-li"><i class="ph ph-heart"></i>love interest</div>
 		</div>
 		
 		<div class="muse-links">
@@ -722,7 +726,7 @@ header {
 
 	</div>
 	
-	<!-- / to here -->
+	... to here -->
 	
 <!-- END OF MUSES. DO NOT EDIT BELOW THIS LINE -->
 
