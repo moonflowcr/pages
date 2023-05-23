@@ -676,6 +676,9 @@ header {
 	
 	<div class="muse-desc"> 
 		   {{{this.description}}}
+		   
+		   <div class="extra">{{{this.extra}}}</div>
+		   
 		   <div class="muse-li"><i class="ph ph-heart"></i>{{{this.loveinterest}}}</div>
 		</div>
 		
