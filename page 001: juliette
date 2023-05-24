@@ -604,8 +604,8 @@ header {
 <div id="nav">
   	<div class="nav-link"><a href="/" title="home"><i class="ph ph-house"></i></a></div>
 	<div class="nav-link"><a href="/ask" title="message"><i class="ph ph-chat-circle"></i></a></div>
-	<div class="nav-link"><a href="https://github.com/moonflowcr/pages/blob/main/page%20001:%20juliette" title="get the code"><i class="ph ph-code-simple"></i></a></div>
-	<div class="nav-link"><a href="https://docs.google.com/spreadsheets/d/1roKSwJHc2da2MFHIBexhk3vFjKopImK2yEad144INV0/edit?usp=sharing" title="get the spreadsheet"><i class="ph ph-table"></i></a></div>
+	<div class="nav-link"><a href="#" title="get the code"><i class="ph ph-link"></i></a></div>
+	<div class="nav-link"><a href="#" title="get the spreadsheet"><i class="ph ph-link"></i></a></div>
 	
 	<!-- 
 	
