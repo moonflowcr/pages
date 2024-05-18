@@ -798,36 +798,6 @@ header {
 <!-- FILTERS -->
 
 <div class="filters">
-	
-	<!--<ul class="filter option-set exclusive" data-filter-group="group one">
-	<b>availability</b>
-     	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".open">open</a></li>
-     	<li><a href="#" data-filter-value=".closed">closed</a></li>
-   	</ul>
-
-   	
-	<ul class="filter option-set exclusive" data-filter-group="group two">
-	<b>gender</b>
-     	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".m">men</a></li>
-     	<li><a href="#" data-filter-value=".w">women</a></li>
-     	<li><a href="#" data-filter-value=".nb">non binary</a></li>
-   	</ul>
-   	
-   	<ul class="filter option-set exclusive" data-filter-group="group three">
-	<b>species</b>
-     	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".human">human</a></li>
-     	<li><a href="#" data-filter-value=".supernatural">supernatural</a></li>
-   	</ul>
-   	
-   	<ul class="filter option-set exclusive" data-filter-group="group four">
-	<b>verse</b>
-     	<li><a href="#" data-filter-value="" class="selected">all</a></li>
-     	<li><a href="#" data-filter-value=".coa">city of angels<a></li>
-     	<li><a href="#" data-filter-value=".devils">devil's paradise</a></li>
-   	</ul>-->
 
   <div class="ui-group">
     <b>group</b> 
