@@ -704,31 +704,7 @@ header {
 	
 	{{/each}}
 	
-</script>	
-
-    <!-- to use the non-spreadsheets version, use this template from here 
-
-	<div class="grid-item 1a 2a">
-	
-	<div class="muse-info">
-		<div class="muse-name"> character name </div>
-		<div class="muse-sub"> faceclaim </div>
-		
-	</div>
-	
-	<div class="muse-desc"> 
-		    gender. pronouns. sexuality. occupation. any extra important info. just keep it short so it looks right, four lines tops. like this one. looks nice and neat, huh?
-		</div>
-		
-		<div class="muse-links">
-			<a href="#" title="link"><i class="ph ph-hash"></i></a>
-			<a href="#" title="link"><i class="ph ph-hash"></i></a>
-			<a href="#" title="link"><i class="ph ph-hash"></i></a>
-		</div>
-
-	</div>
-	
-	<!-- / to here -->
+</script>
 	
 <!-- END OF MUSES. DO NOT EDIT BELOW THIS LINE -->
 
