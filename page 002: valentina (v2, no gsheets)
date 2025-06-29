@@ -344,13 +344,20 @@ header {
 
 #controlsbutton { cursor:pointer; }
 
+.nav-link a, button.theme-toggle a {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
 .nav-link a:hover, button.theme-toggle a:hover {
-    color:var(--ColorLinksHover)!important;
-    -webkit-transition: all 0.5s!important;
-    -moz-transition: all 0.5s!important;
-    -ms-transition: all 0.5s!important;
-    -o-transition: all 0.5s!important;
-    transition: all 0.5s!important;
+    color:var(--ColorLinksHover);
+}
+
+body.controls-click #controlsbutton i { 
+    color:var(--ColorLinksHover);
 }
 
 /*----- FILTERS -----*/
@@ -1336,7 +1343,6 @@ $(document).ready(function(){
     // CONTROLS    
    $('#controlsbutton').click(function(){
        $('body').toggleClass('controls-click');
-       $('#controlsbutton i').toggleClass('ph-fill');
    });
     
     // SCROLL TO TOP
